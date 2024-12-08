@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog Search</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <nav>
+      <a href="https://prajwalnaw.github.io/Resume/" target="_blank">Portfolio</a>
+    </nav>
+    
+    <main>
+      <h1>Search Blogs</h1>
+      <input type="text" id="searchBox" placeholder="Search..." />
+      
+      <div class="filter">
+        <label class="custom-checkbox">
+          <input class="tik" type="radio" name="category" value="all" checked> All
+          <span class="checkmark"></span>
+        </label>
+        <label class="custom-checkbox">
+          <input class="tik" type="radio" name="category" value="tech"> Tech
+          <span class="checkmark"></span>
+        </label>
+        <label class="custom-checkbox">
+          <input type="radio" name="category" value="life"> Life
+          <span class="checkmark"></span>
+        </label>
+      </div>
+      
+      <ul id="results"></ul>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
